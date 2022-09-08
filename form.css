@@ -1,0 +1,21 @@
+.div{
+
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 500px;
+    height: 750px;
+    text-align: center;
+
+}
+
+.margin{
+
+    margin-bottom: 20px;
+
+}
+
+.ta{
+    margin-top: 50px;
+}
+
+
