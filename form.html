@@ -12,18 +12,18 @@
 
 <body>
 
-    <div class="div">
+    <form class="div">
 
         <div class="margin ta">
-            <label>Name</label>
+            <label for="name">Name</label>
             <br>
-            <input type="text" name="" id="">
+            <input type="text" name="text_name" id="name" placeholder="your name">
 
 
         </div>
-        <div class="margin "> <label>Surname</label>
+        <div class="margin"> <label for="surname">Surname</label>
             <br>
-            <input type="text">
+            <input type="text" name = "text_surname" id = "surname" placeholder="your surname">
         </div>
         <div class="margin"> <label for="">Email</label>
             <br>
@@ -31,18 +31,18 @@
         </div>
         <div class="margin"> <label for="">Password</label>
             <br>
-            <input type="text" name="" id="">
+            <input type="password" name="" id="">
         </div>
-        <div class="margin"> <label for="">Age</label>
+        <div class="margin"> <label for="age">Age</label>
             <br>
-            <input type="text" name="" id="">
+            <input type="number" name="number_age" id="age">
         </div>
-        <div class="margin"> <label for="">Date</label>
+        <div class="margin"> <label for="date">Date</label>
             <br>
-            <input type="text" name="" id="">
+            <input type="date" name="datae_date" id="date">
         </div>
         <div class="margin">
-            <label>Gender</label>
+            <label >Gender</label>
             <br>
             <input id="male" type="radio" name="gender">
             <label for="male" >Male</label>
@@ -51,44 +51,39 @@
             <input id = "all" type="radio" name="gender">
             <label for="all">All</label>
 
-
         </div>
 
         <div class="margin">
             <label>Hobbies</label>
             <br>
-            <input type="checkbox">
+            <input type="checkbox" id="art" name="art">
             <label>Art</label>
-            <input type="checkbox">
+            <input type="checkbox" id="music" name="music">
             <label>Music</label>
-            <input type="checkbox">
+            <input type="checkbox" id="technology" name="technology">
             <label>Technology</label>
-
 
         </div>
         <div class="margin">
             <label>City</label>
             <br>
-            <select id="City" name="city">
-                <option value="06">Ankara</option>
-                <option value="34">Istanbul</option>
-                <option value="44">Malatya</option>
+            <select id="city" name="city">
+                <option value="Ankara">Ankara</option>
+                <option value="Istanbul" selected>Istanbul</option>
+                <option value="Malatya">Malatya</option>
             </select>
         </div>
-
-
 
         <div class=" margin">
             <textarea>Your Message</textarea>
         </div>
+
         <div class="margin">
-            <button>Gönder</button>
-            <button>Temizle</button>
+            <input type="submit" value = "submit">
+            <input type="reset" value = "reset">
         </div>
 
-
-
-    </div>
+    </form>
 
 </body>
 
