@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+<div class="row">
+    <div class=" col-md-4"></div>
+<div class=" myborder col-md-3  ">
+    <label >Vize Notu</label>
+    <input type="number" id = "vizeNotu"><br><br>
+
+    <label >Final Notu</label>
+    <input type="number" id = "finalNotu"><br><br>
+
+    <button onclick="notHesapla()">Hesapla</button><br><br>
+
+    <label id="lblnotOrtalama" >Sonuc: </label>
+
+
+    <br><br><br>
+
+    <h2>İlgi Alanları</h2>
+    <button onclick="getir()">Getir</button>
+    <button onclick="temizle()">Temizle</button>
+    <div>
+        <ul id="getir">
+
+        </ul>
+    </div>
+    <br><br>
+
+
+    
+    <h2>Harcamalara Göre Filtrele</h2><br>
+
+    <input type="number" id="inp1"><br>
+
+
+    <button onclick="getir1()">Getir</button>
+
+    <div>
+        <ul id="filtrele">
+        </ul>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</div>
+</div>
+
+</body>
+</html>
