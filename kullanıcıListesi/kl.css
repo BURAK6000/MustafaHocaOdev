@@ -1,0 +1,14 @@
+.container{
+
+    border: 1px solid gray;
+    border-radius: 3rem;
+
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
