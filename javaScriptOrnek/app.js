@@ -68,7 +68,7 @@ function getir1(){
 
     let lblgetir1 = document.getElementById('filtrele');
 
-   let results =  user.expenses.filter(x=>(x>deger1));
+   let results =  user.expenses.filter(x=>(x>deger1.value));
 
    results.forEach(x=>{
     lblgetir1.innerHTML += ` <li>${x}</li>`;
